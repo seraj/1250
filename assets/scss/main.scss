@@ -1,0 +1,46 @@
+@import "./variables";
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: $dark;
+  color: $light;
+  font-size: 18px;
+}
+
+body {
+  margin: 20px 0;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 10px;
+  line-height: 1.65;
+}
+
+a {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button {
+  border: none !important;
+}
+
+div {
+  display: block;
+}
+
+.container {
+  max-width: 600px;
+  @media screen and (max-width: 480px) {
+    max-width: 90% !important;
+  }
+}
+
+@import "./header";
+@import "./game";
+
+.footer {
+  text-align: center;
+}

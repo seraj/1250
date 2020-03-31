@@ -1,0 +1,35 @@
+{
+  "name": "1250",
+  "author": "Seraj Vahdati",
+  "version": "1.0.0",
+  "description": "Simple JavaScript Game",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "autoprefixer": "^9.7.0",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-cachebust": "0.0.11",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-inject": "^5.0.5",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/svahdati/1250.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/svahdati/1250/issues"
+  },
+  "homepage": "https://gitlab.com/svahdati/1250#readme"
+}

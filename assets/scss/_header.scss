@@ -1,0 +1,91 @@
+.header {
+  &:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  h1.title {
+    font-size: 80px;
+    font-weight: bold;
+    margin: 0;
+    display: block;
+    float: left;
+    span {
+      color: $primaryColor;
+    }
+    display: flex;
+    align-self: center;
+    @media screen and (max-width: 480px) {
+      font-size: 40px;
+    }
+  }
+
+  .scores-container {
+    float: right;
+    text-align: right;
+
+    .current-score {
+      float: right;
+      margin-left: 20px;
+
+      &:after {
+        content: "Time";
+      }
+    }
+    .best-score:after {
+      content: "Best Time";
+    }
+    .current-score,
+    .best-score {
+      position: relative;
+      display: inline-block;
+      background: $secondColor;
+      padding: 15px;
+      font-size: 25px;
+      font-weight: bold;
+      border-radius: $borderRadius;
+      color: $light;
+      margin-top: 8px;
+      text-align: center;
+      width: 120px;
+      @media screen and (max-width: 480px) {
+        width: 80px;
+        font-size: 12px;
+        padding-top: 20px;
+      }
+
+      &:after,
+      &:after {
+        position: absolute;
+        width: 100%;
+        top: 5px;
+        left: 0;
+        text-transform: uppercase;
+        font-size: 13px;
+        line-height: 13px;
+        text-align: center;
+        color: #eee4da;
+      }
+    }
+  }
+}
+.header-bottom {
+  @media screen and (max-width: 480px) {
+    margin-top: 20px;
+  }
+  .description {
+    float: left;
+    margin-bottom: 0;
+  }
+
+  .restart-button {
+    display: block;
+    background: $secondColor;
+    border-radius: $borderRadius;
+    text-decoration: none;
+    color: $light;
+    min-width: 80%;
+    float: right;
+    text-align: center;
+  }
+}
