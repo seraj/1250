@@ -1,11 +1,8 @@
 {
-  "name": "1252-server",
+  "name": "1250-server",
   "version": "1.0.0",
-  "description": "1252 game server",
+  "description": "1250 game server",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "alirezahi",
   "license": "ISC",
   "dependencies": {
